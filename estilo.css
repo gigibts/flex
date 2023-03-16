@@ -93,15 +93,18 @@ main > p{
     margin: 30px 30px;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 .card {
     width: 300px;
-    height: 400px;
 }
  .cards img{
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
- }
+     }
+
+    
+    
 
  .cardinfo {
     width: 300px;
@@ -112,4 +115,67 @@ main > p{
     justify-content: center;
     align-items: center;
     margin-top: -5px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
  }
+
+ .cardnome {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 35px;
+    padding-top: 20px;
+    
+ }
+ 
+ .cardpreco {
+    background-color: greenyellow;
+    width: 250px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+     }
+
+     .cardpreco:hover {
+        transform:scale(1.1,1.1)
+     }
+
+     .botao {
+        background-color: yellowgreen;
+        border-radius: 20px;
+        padding: 20px;
+
+     }
+
+    a:link, a:visited{
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 600;
+        transition: 1s;
+
+     }
+     a:hover {
+    background-color: rgb(78,26, 199);
+     }
+
+     footer {
+        background-color: red;
+        color: white;
+        font-size: 16px;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+     }
+footer address {
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 2px;
+
+}
+footer ul li {
+    text-transform: uppercase;
+    transition: 1s;
+}
+
