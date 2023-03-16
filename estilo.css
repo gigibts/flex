@@ -175,7 +175,7 @@ footer address {
 
 }
 footer ul li {
-    text-transform: uppercase;
-    transition: 1s;
-}
+        text-transform: uppercase;
+        transition: 1s;
+    }
 
